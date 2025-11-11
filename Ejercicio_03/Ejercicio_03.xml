@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="Ejercicio_03.dtd" type="application/xml-dtd"?>-->
+
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio_03.xsd">
+
+    <book>
+        <title>Historia Interminable</title>
+        <author>Michael Ende</author>
+        <year>1979</year>
+        <publisher>Alfaguara</publisher>
+        <pages>496</pages>
+    </book>
+    <book>
+        <title>El juego de Ender</title>
+        <author>Orson Scott Card</author>
+        <year>1985</year>
+        <publisher>B de Bolsillo</publisher>
+        <pages>368</pages>
+    </book>
+</library>
