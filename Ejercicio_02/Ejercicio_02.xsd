@@ -28,7 +28,7 @@
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
                                     <xs:attribute name="codigo" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
@@ -45,7 +45,7 @@
                                         <xs:element name="email" type="xs:string"/>
                                         <xs:element name="telefono" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
                                     <xs:attribute name="nif" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
@@ -61,9 +61,9 @@
                                         <xs:element name="fecha_alta" type="xs:date"/>
                                         <xs:element name="estado" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
-                                    <xs:attribute name="alumnoRef" type="xs:string" use="required"/>
-                                    <xs:attribute name="cursoRef" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                    <xs:attribute name="alumnoRef" type="xs:IDREF" use="required"/>
+                                    <xs:attribute name="cursoRef" type="xs:IDREF" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -79,8 +79,8 @@
                                         <xs:element name="convocatoria" type="xs:string"/>
                                         <xs:element name="nota" type="xs:decimal"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
-                                    <xs:attribute name="matriculaRef" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                    <xs:attribute name="matriculaRef" type="xs:IDREF" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
