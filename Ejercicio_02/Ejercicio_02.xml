@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE plataforma SYSTEM "Ejercicio_02.dtd">-->
+
+<plataforma fecha_publicacion="2025-11-11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio_02.xsd">
+    <cursos>
+        <curso id="C001" codigo="CO001">
+            <titulo>Ajedrez</titulo>
+            <nivel>Principiante</nivel>
+            <modalidad>Online</modalidad>
+            <horas>20</horas>
+            <modulos>
+                <modulo>
+                    <nombre>Teoria del Ajedrez</nombre>
+                    <horas>10</horas>                   
+                </modulo>
+                <modulo>
+                    <nombre>Practicas de Ajedrez</nombre>
+                    <horas>10</horas>    
+                </modulo>
+            </modulos>
+        </curso>
+    </cursos>
+    <alumnos>
+        <alumno id="A001" nif="12345678-A">
+            <nombre>Juan Palomo</nombre>
+            <email>juanpalomo@thepower.com</email>
+            <telefono>600555555</telefono>
+        </alumno>
+    </alumnos>
+    <matriculas>
+        <matricula id="M001" alumnoRef="A001" cursoRef="C001">
+            <fecha_alta>2025-11-11</fecha_alta>
+            <estado>Activa</estado>
+        </matricula>
+    </matriculas>
+    <evaluaciones>
+        <evaluacion id="E001" matriculaRef="M001">
+                <instrumento>ONLINE</instrumento>
+                <convocatoria>PRIMERA</convocatoria>
+                <nota>9.80</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>
